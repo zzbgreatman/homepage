@@ -1,9 +1,9 @@
 name: Deploy to Github Pages
-  on:
+on:
     push:
       branches:
-        - master
-  jobs:
+        - main
+jobs:
     gh-pages-deploy:
       name: Deploying to Github Pages
       runs-on: ubuntu-latest
@@ -15,6 +15,6 @@ name: Deploy to Github Pages
           - name: Install packages
             run: npm i
           - name: Set Creds
-            run: git config user.name "zzbgreatman" && git config user.email "lzy968@gmail.com"
+            run: git config user.name "<username>" && git config user.email "<email>"
           - name: Deploy
             run: npm run deploy
