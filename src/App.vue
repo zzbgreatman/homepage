@@ -1,6 +1,6 @@
 <template>
   <img height="200" width="200" alt="Vue logo" src="./assets/profile.jpg">
-  <HelloWorld msg="Ziyang Liu Profile Page"/>
+  <HelloWorld msg="Ziyang Liu Home Page"/>
 </template>
 
 <script>
