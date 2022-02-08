@@ -12,5 +12,6 @@ git config --global user.email "lzy968@gmail.com"
 git init
 git add -A
 git commit -m 'deploy'
+git remote add origin https://zzbgreatman:zzb33022@github.com/zzbgreatman/homepage.git
 git push -f https://github.com/zzbgreatman/homepage.git master:gh-pages
 cd -
